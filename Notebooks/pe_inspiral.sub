@@ -1,0 +1,10 @@
+universe = vanilla
+executable = /home1/akash.mishra/Area_law/Notebooks/inspiral_test.py
+accounting_group_user = akash.mishra
+request_memory = 5000
+getenv = True
+log = /home1/akash.mishra/Area_law/Notebooks/log:/$(cluster)-$(process).log
+error = /home1/akash.mishra/Area_law/Notebooks/error/$(cluster)-$(process).err
+output = /home1/akash.mishra/Area_law/Notebooks/output/grid-$(cluster)-$(process).out
+notification = never
+queue 1
